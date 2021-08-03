@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java srcript</title>
+</head>
+<body>
+    <p id="English"> p: </p>
+    <p id="maths"> p: </p>
+    <p id="computer"> p: </p>
+    <hr>
+    <p id="Total"> p: </p>
+    <p id="per"> p: </p>
+    <h1 id="h1"></h1>
+   
+    <script>
+
+       var English = 80;
+       var maths =90;
+       var computer = 56;
+
+       Total = English + maths + computer;
+        per = Total/3
+
+        document.getElementById("English").innerHTML= ("English :"+English );
+        document.getElementById("maths").innerHTML= ("maths :" + maths );
+        document.getElementById("computer").innerHTML= ("computer :" + computer  );
+        document.getElementById("Total").innerHTML= ("Total :" + Total );
+        document.getElementById("per").innerHTML= ("percentage :" + per +"%" );
+        document.getElementById("h1").innerHTML=per;
+    //    document.write(per)
+
+
+    </script>
+</body>
+</html>
